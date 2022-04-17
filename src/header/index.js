@@ -7,8 +7,8 @@ class Header extends Component{
     render(){
         return(
             <header>
-                <div>
-                    <img src="logo.jpg"/>
+                <div style={{display:"flex",justifyContent:"space-between"}}>
+                    <img src="img/logo.jpg"/>
                     <Navigator/>
                 </div>
             </header>

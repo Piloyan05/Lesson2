@@ -1,26 +1,27 @@
 import React,{Component} from "react";
 import styles from "./Header.module.css"
 
-class Navigator extends React{
+
+class Navigator extends Component{
     constructor(){
         super()
     }
     render(){
         let menu=[
             {
-                id:Date.now(),
+                id:1,
                 item:"Home"
             },
             {
-                id:Date.now(),
+                id:2,
                 item:"About"
             },
             {
-                id:Date.now(),
+                id:3,
                 item:"Blog"
             },
             {
-                id:Date.now(),
+                id:4,
                 item:"Contact"
             }
         ]
