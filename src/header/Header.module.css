@@ -1,8 +1,0 @@
-menu{
-    display: flex;
-}
-
-menu li{
-    color: blue;
-    list-style: none;
-}
