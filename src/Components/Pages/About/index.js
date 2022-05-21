@@ -1,10 +1,15 @@
 
-
-
 import React from 'react'
-
+import Textcontent from './Textcontent'
+import AboutImg from './AboutImg'
+import styles from './About.module.css'
 export default function About() {
   return (
-    <div>About Us</div>
+  <section className="container">
+  <div className={styles.About_content}>
+  <Textcontent/>
+  <AboutImg/>
+  </div>
+  </section>
   )
 }

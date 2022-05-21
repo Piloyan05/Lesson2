@@ -1,0 +1,47 @@
+.About_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 206px;
+    margin-top: 51px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 163px;
+}
+
+.info div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.About_title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+}
+
+.About_text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+}
+
+.info div p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+}
+
+.info div h2 {
+    font-size: 48px;
+    line-height: 80px;
+    color: #2A3246;
+    margin: 0;
+    padding: 0;
+}

@@ -3,7 +3,7 @@
     grid-template-columns: repeat(3, 33.3%);
     grid-template-rows: repeat(2, auto);
     gap: 18px 20px;
-
+    margin-top: 51px;
 }
 
 .speak_blog {
@@ -45,8 +45,8 @@
 
 }
 
-.writing_blog img{
-   
+.writing_blog img {
+
     height: 250px;
     width: 300px;
     display: flex;
