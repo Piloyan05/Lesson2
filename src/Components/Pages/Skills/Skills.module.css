@@ -1,0 +1,55 @@
+.skills_general {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: repeat(2, auto);
+    gap: 18px 20px;
+
+}
+
+.speak_blog {
+    grid-row: 1/span 2;
+
+
+}
+
+.listening_blog {
+    grid-column: 2/ span 3;
+    width: 91.3% !important;
+}
+
+.skills_general>div {
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 43px;
+
+}
+
+.skills_general h2 {
+    font-size: 30px;
+    line-height: 80px;
+    color: #263238;
+}
+
+.skills_general button {
+    background: #263238;
+    border-radius: 5px;
+    width: 230px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    grid-auto-flow: column;
+
+
+}
+
+.writing_blog img{
+   
+    height: 250px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 185px;
+}
