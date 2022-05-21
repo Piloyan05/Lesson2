@@ -11,6 +11,7 @@ import "./App.css"
 function App() {
   return (
     <>
+
       <Routes>
         <Route path="/" element={<Layout/>}>
         <Route path="/" element={<Home/>}/>
@@ -19,11 +20,8 @@ function App() {
         <Route path="/pricing" element={<Pricing/>}/>
         <Route path="/contacts" element={<Contact/>}/>
         <Route path="/letsTalk" element={<letsTalk/>}/>
-        
         <Route path="*" element={<Error/>}/>
-
-        </Route>
-
+       </Route>
       </Routes>
 
 
