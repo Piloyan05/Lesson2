@@ -1,0 +1,49 @@
+.Paqo{
+  display: flex;
+  gap:100px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.price_block{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.price_block img{
+   width: fit-content;
+   height: fit-content;
+}
+.title{
+    text-align: center;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+
+}
+.price_block h2{
+    font-size: 30px;
+    line-height: 48px;
+    color: #263238;
+}
+.price_title{
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+}
+.price{
+    font-size: 30px;
+    line-height: 45px;
+    color: #263238;
+    background: #EEEEEE;
+    border-radius: 5px;
+    text-indent: 18px;
+    width: fit-content;
+    padding-right: 24px;
+}
+.per_month{
+    font-size: 18px;
+    line-height: 27px;
+    color: #546269;
+}

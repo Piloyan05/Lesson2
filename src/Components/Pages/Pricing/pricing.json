@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "img":"img/OnlineTest.png",
+        "title":"Self-study online course",
+        "text":"Start learning English online in live classes with qualified EC teachers and students from all over the world.",
+        "price":"£5.99"
+    },
+    {
+        "id":2,
+        "img":"img/LessonBro.png",
+        "title":"Live online classes",
+        "text":"Interactive group classes with expert teachers. Free 7-day trial",
+        "price":"£12.99"
+    },
+    {
+        "id":3,
+        "img":"img/WebinarBro.png",
+        "title":"Personal Tuition",
+        "text":"Online one-to-one English tutoring – enjoy our first session for only $1",
+        "price":"£20.99"
+    }
+]
