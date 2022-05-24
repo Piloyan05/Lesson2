@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 165px;
+    border-top: 1px solid #C4C4C4;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+}
